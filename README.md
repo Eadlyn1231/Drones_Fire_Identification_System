@@ -100,9 +100,7 @@ Click the image below to watch the system demo.
 
 [火焰辨識](https://youtu.be/zmP0LtLYtPI)
 
-[![Fire Identification Demo](demo/Fire_Identification preview.png)](demo/火焰辨識(Fire_Identification).mp4)
-
-[![UI Demo](demo/UI preview.png)](demo/介面展示(UI).mp4)
+[介面展示&&資料庫連接Microsoft Power BI](https://youtu.be/sOLUsFTuNuE)
 
 ## Full project report available in the `report/` directory  
 
