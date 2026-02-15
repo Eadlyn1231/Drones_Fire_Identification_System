@@ -10,6 +10,7 @@ from plyer import notification
 
 
 app = Flask(__name__)
+# 使用環境變數管理 LINE Token 與 Secret（避免憑證外洩）
 line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
 handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
 
