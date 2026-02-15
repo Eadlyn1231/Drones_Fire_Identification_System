@@ -96,11 +96,13 @@ This project develops a UAV-based fire identification system that detects fire f
 ## Demo / 示範影片
 Click the image below to watch the system demo.
 
+[無人機操作展示](https://youtu.be/1HtgWGOiA6E)
+
+[火焰辨識](https://youtu.be/zmP0LtLYtPI)
+
 [![Fire Identification Demo](demo/Fire_Identification preview.png)](demo/火焰辨識(Fire_Identification).mp4)
 
 [![UI Demo](demo/UI preview.png)](demo/介面展示(UI).mp4)
-
-[![Drone Control Demo](demo/drone control preview.png)](demo/無人機操作展示(drone control).mov)
 
 ## Full project report available in the `report/` directory  
 
