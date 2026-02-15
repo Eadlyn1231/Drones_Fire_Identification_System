@@ -10,8 +10,8 @@ from plyer import notification
 
 
 app = Flask(__name__)
-line_bot_api = LineBotApi('rApzYc1Cmd0ANK3+p1FKL+NpI1v0706513BsD4iUSW98wdiL0TioKe7F77lxg7iCFMgpSMpHYKh/oOsngQQH2DSeeEmcP2Zwf0qaM2AizRJgLxxj0ifXeYEx8X5yY++W++cJHZUAkkKd4AHrnOg5OAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('e8a72dedc22eb5c151f0738717db7504')
+line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
+handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
 
 @app.route("/fire-alert",methods=['POST'])
 def home():
